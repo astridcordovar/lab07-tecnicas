@@ -33,13 +33,20 @@ Autocrítica: Revisa si se contempló el retiro de un estudiante de un curso. Si
 | Técnica | Donse se aplicó |
 |---------|-----------------|
 |Role Prompting| Actúa como estudiante de diseño de software. |
-|Prompt estructurado| <rol> Actúa como estudiante de diseño de software. </rol>
-<contexto> Sistema de notas académicas con clases. </contexto>
-<tarea> Revisa las clases, atributos, métodos. </tarea>
-<formato> Presenta las clases modificadas, atributos, métodos en código de Java y diagrama UML </formato> | 
+|Prompt estructurado | < rol> Actúa como estudiante de diseño de software. < /rol> < contexto> Sistema de notas académicas con clases. < /contexto> < tarea> Revisa las clases, atributos, métodos. < /tarea> < formato> Presenta las clases modificadas, atributos, métodos en código de Java y diagrama UML < /formato> | 
 |Autocrítica| Revisa si se contempló el retiro de un estudiante de un curso. Si falta, agrega los elementos necesarios para gestionar el retiro, conservar sus notas y controlar el estado de la matrícula. |
 
 
 ## Evaluacion del resultado
 
+| Qué revisar	Cumple |  (Sí / No) |
+|---------|--------------------------|
+| Incluye el bloque de código | Si | 	
+| Lista las clases y su descripcion | Si | 	
+| Explica como funcionará el programa | Si | 
+| Envía un diagrama de flujo | Si | 	
+ 
+
 ## Por que elegi estas tecnicas
+
+Elegí estas técnicas porque considero que siguen una secuencia, primero identificamos el rol, luego estructo las demás funciones y finalmente indico la autocrítica, es como un paso a paso pero en cada paso se aplica una nueva técnica.
